@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    overflow-x: hidden ;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Video Background and content */
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.content video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+.content .container{
+    margin-top: 150px;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+
+
+
